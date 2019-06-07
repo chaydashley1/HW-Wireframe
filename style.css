@@ -17,16 +17,25 @@ html {
        clear: top;
     
    }
+   html{
+     background-color: #777
+   }
    
    header{
       
-       background-color: blue;  
-       height: 60px;
+       background-color: #ebebeb;  
+       height: 50px;
+       padding: 8px;
+       margin-bottom: 13px;
+       position: relative;
+      color: #777;
    }
 
    nav{
-       background-color: blue;
-       height: 60px;
+       background-color:#ebebeb;
+       height: 50px;
+       padding: 8px;
+       color: #777;
    }
 
    section{
@@ -35,47 +44,54 @@ html {
        float: left;
        padding: 60px 100px 60px 60px;*/
        float: left;
+       color: #777;
        height: auto;
-        background-color: blueviolet;
+        background-color:#ebebeb;
         width: 46%;
+      
    }
 
    aside{
-       /*
-       background-color:red;
-       display: flex;
-       float: left;
-       padding: 60px 150px 60px 60px;*/
-       background-color: red;
+     position: relative;
+       background-color:#ebebeb;
        float: right;
        width: 52%;
-       height: 182px;
+       height: 201px;
+       color: #777;
+
        
 
 
    }
    article{
 
-       background-color: aliceblue;
+       background-color:#777;
        margin: 13px;
+       color: #ebebeb;
+
 
        
    }     
 
   .button{
-background-color: brown;
+background-color: #ebebeb;
 height: 30%;
 width:90%;
 position: relative;
 left: 4%;
 bottom: 10px;
-  }     
+text-align: center;
+color: #777;
 
+  }     
+.button-text{
+  padding-top:10px;
+}
 
    }
    body {
     margin: 10%;
-    color:777;
+    color:#777;
     font-size: '18px';
     width: '960px';
     font-size:"18px";
@@ -83,12 +99,15 @@ bottom: 10px;
 }
   
    footer{
-       background-color: pink;
+       background-color: #ebebeb;
        height: 60px;
-       width: 98%;
+       width: 99%;
        position: absolute;
        display: block;
-       margin-top: 182px;}
+       margin-top: 200px;
+       color: #777;
+       
+   }
 
     
 
