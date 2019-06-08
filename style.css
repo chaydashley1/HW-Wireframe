@@ -18,7 +18,8 @@ html {
     
    }
    html{
-     background-color: #777
+     background-color: #777;
+     margin: 0 7%;
    }
    
    header{
@@ -90,22 +91,24 @@ color: #777;
 
    }
    body {
+    font-family: arial;
     margin: 10%;
     color:#777;
     font-size: '18px';
     width: '960px';
     font-size:"18px";
-    background-color:rgb(65, 65, 66);
+    background-color:#777;
 }
   
    footer{
        background-color: #ebebeb;
        height: 60px;
-       width: 99%;
+       width: 84%;
        position: absolute;
        display: block;
        margin-top: 200px;
        color: #777;
+   
        
    }
 
